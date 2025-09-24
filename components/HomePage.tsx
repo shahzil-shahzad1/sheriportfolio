@@ -6,8 +6,8 @@ const HomePage = () => (
     id="home"
     className="w-full min-h-fit px-4 sm:px-8 lg:px-16 py-20"
   >
-    <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between gap-12 pt-10 text-center">
-      {/* Image + role text */}
+    <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-12 pt-10 text-center">
+      {/* Image + role text md:items-start*/}
       <div className="flex flex-col justify-start items-center md:items-start gap-6 w-full md:w-1/3">
         <Image
         src="/Profile.jpg"
@@ -19,7 +19,7 @@ const HomePage = () => (
       </div>
 
       {/* Text content */}
-      <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left w-full text-center"> {/*md:w-2/3 */}
+      <div className="flex-1 flex flex-col items-center md:items-center text-center w-full"> {/*md:w-2/3 md:text-left */}
         <div className="space-y-1 text-center md:text-left mb-5">
           <h2 className="text-white text-xl sm:text-2xl font-bold">
             Muhammad Sheharyar Shahzad Rana
@@ -31,7 +31,7 @@ const HomePage = () => (
             I will do my best to give you the best.
           </p>
         </div>
-        <p className="text-sm sm:text-base lg:text-lg text-white/90 leading-relaxed">
+        <p className="text-sm sm:text-base lg:text-lg text-white/90 leading-relaxed text-center">
           A dedicated Computer Science student and passionate Flutter developer with hands-on experience in building cross-platform mobile and web apps using Flutter, Firebase, Supabase, Hive, and REST APIs. Skilled in UI/UX design, backend integration, and state management (Provider, GetX, BLoC). I aim to transform ideas into functional, scalable, and visually appealing digital products.
         </p>
 
