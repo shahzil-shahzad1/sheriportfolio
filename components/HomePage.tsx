@@ -24,10 +24,10 @@ const HomePage = () => (
           <h2 className="text-white text-xl sm:text-2xl font-bold">
             Muhammad Sheharyar Shahzad Rana
           </h2>
-          <h2 className="text-[#ff2f24] text-xl sm:text-[1.2rem] font-bold">
+          <h2 className="text-[#ff2f24] text-xl sm:text-[1.2rem] font-bold text-center">
             Flutter Developer
           </h2>
-          <p className="text-[#B3B3B3] text-base sm:text-lg">
+          <p className="text-[#B3B3B3] text-base sm:text-lg text-center">
             I will do my best to give you the best.
           </p>
         </div>
