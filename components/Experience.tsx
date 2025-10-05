@@ -16,7 +16,7 @@ const ExperiencePage = () => (
         </p>
 
         {/* Timeline */}
-        <div className="relative border-l border-gray-700 pl-4 sm:pl-6 space-y-10">
+        <div className="relative border-l border-[#222222] pl-4 sm:pl-6 space-y-10">
           {experience.map((item, index) => (
             <div key={index} className="relative">
               <span className="absolute -left-4 sm:-left-3 top-1 w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-white text-black flex items-center justify-center text-sm">
